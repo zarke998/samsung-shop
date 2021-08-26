@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuItem } from './menu-item/menu-item';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'samsung-shop';
+  menu : MenuItem[] = [{ name: "2", link: "2"}]
+  logo : string = "assets/images/logo.png";
 }
