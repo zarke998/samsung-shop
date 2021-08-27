@@ -1,2 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 .clear{clear: both;}
+
+.main-btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8c00ff;
+    border-radius: 1000px;
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    font-size: 18px;
+
+    &:hover{
+        background-color: #7a00df;
+        color:rgb(204, 204, 204);
+    }
+}
