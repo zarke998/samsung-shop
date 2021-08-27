@@ -10,10 +10,14 @@ export let fadeSlideInAnimation = animation([
         offset: "-200px"
     }
 });
-
 export let fadeSlideOutAnimation = animation([
     animate("1s ease-in", style({opacity: 0, transform: 'translateX(-200px)'}))
 ]);
+
+export let fadeInAnimation = animation([
+    style({opacity: 0}),
+    animate(1500)
+])
 
 export let fadeSlide = trigger('fadeSlide', [
     transition("void => *",[
@@ -21,5 +25,11 @@ export let fadeSlide = trigger('fadeSlide', [
     ]),
     transition("* => void",[
         useAnimation(fadeSlideOutAnimation)
+    ])
+])
+
+export let fade = trigger('fade',[
+    transition("void => *",[
+        useAnimation(fadeInAnimation)
     ])
 ])
