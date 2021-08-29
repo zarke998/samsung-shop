@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { TopProductsComponent } from './top-products/top-products.component';
 import { BestPhoneComponent } from './best-phone/best-phone.component';
 import { TeamListComponent } from './team-list/team-list.component';
+import { FooterComponent } from './footer/footer.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -21,13 +23,16 @@ import { TeamListComponent } from './team-list/team-list.component';
     HomeComponent,
     TopProductsComponent,
     BestPhoneComponent,
-    TeamListComponent
+    TeamListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
