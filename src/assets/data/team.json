@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Michael Nicolson",
+        "title": "Team Lead",
+        "description": "Hard working. Passionate. Ambitious.",
+        "image": "assets/images/team/team1.jpg"
+    },
+    {
+        "name": "Lee Yung",
+        "title": "Senior Developer",
+        "description": "Team player that loves coding a lot.",
+        "image": "assets/images/team/team2.jpg"
+    },
+    {
+        "name": "Jessica Hughes",
+        "title": "Data Analyst",
+        "description": "Compassionate and competitive employee.",
+        "image": "assets/images/team/team3.jpg"
+    },
+    {
+        "name": "Mia Jackson",
+        "title": "QA Specialist",
+        "description": "Energetic and people person.",
+        "image": "assets/images/team/team4.jpg"
+    }
+]

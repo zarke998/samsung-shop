@@ -1,0 +1,19 @@
+<div class="features">
+    <div class="container">
+        <h3 class="m_3">Our team</h3>
+          <div class="row">
+            <div *ngFor="let member of teamMembers" class="col-md-3 top_box">
+              <div class="view view-ninth">
+                <img src="{{ member.image }}" class="img-responsive" alt=""/>
+                <div class="mask mask-1"> </div>
+                <div class="mask mask-2"> </div>
+                  <div class="content">
+                    <h2>{{ member.title }}</h2>
+                    <p>{{ member.description }}</p>
+                  </div>
+            </div>
+              <h4 class="m_4 text-center"><a href="#">{{ member.name }}</a></h4>
+            </div>
+        </div>
+     </div>
+</div>
