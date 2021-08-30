@@ -10,8 +10,9 @@
 
                  <div class="menu">
                       <ul class="nav" id="nav">
-                          <li *ngFor="let menuItem of menuItems"><a href="{{ menuItem.link }}">{{ menuItem.name }}</a></li>
-                          
+                          <li *ngFor="let menuItem of menuItems">
+                              <a [routerLink]="menuItem.path" routerLinkActive="active-link">{{ menuItem.name }}</a>
+                           </li>
                           <div class="clear"></div>
                       </ul>
                 </div>

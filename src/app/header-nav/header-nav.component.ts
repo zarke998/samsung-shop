@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MenuItem } from '../menu-item/menu-item';
+import { MenuService } from '../services/menu-service/menu.service';
 
 @Component({
   selector: 'app-header-nav',
@@ -9,12 +10,19 @@ import { MenuItem } from '../menu-item/menu-item';
 export class HeaderNavComponent implements OnInit {
 
   @Input() logoImage : string = "";
-  @Input() menuItems : MenuItem[] = [];
+  menuItems : any;
   
-  constructor() { }
+  constructor(private menuService : MenuService) { }
 
   ngOnInit(): void {
-
+    this.menuService.getMenu().subscribe(
+      response => {
+        this.menuItems = response;
+      },
+      error => {
+        console.log(error);
+      }
+    )
   }
 
 }

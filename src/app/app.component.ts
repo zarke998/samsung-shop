@@ -7,6 +7,5 @@ import { MenuItem } from './menu-item/menu-item';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  menu : MenuItem[] = [{ name: "2", link: "2"}]
   logo : string = "assets/images/logo.png";
 }
