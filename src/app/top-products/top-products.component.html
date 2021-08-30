@@ -2,9 +2,9 @@
     <h2>Newest smartphone models</h2>
     <p>Get 10% off by using order code 'SAMSUNG-DISCOUNT'.</p>
     <div class="products-container">
-        <div class="product" *ngFor="let prod of products">
-            <img src="{{ prod }}"/>
-            <p class="title"> Samsung Ultra Galaxy S20</p>
+        <div class="product" *ngFor="let product of products">
+            <img src="{{ product.image }}"/>
+            <p class="title"> {{ product.name }}</p>
             <a class="main-btn" href="">View info</a>
         </div>
     </div>

@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { fade } from '../animations';
+import { ProductService } from '../services/product-service/product.service';
 
 @Component({
   selector: 'app-top-products',
@@ -11,12 +12,19 @@ import { fade } from '../animations';
 })
 export class TopProductsComponent implements OnInit {
 
-  products : string[] = ["assets/images/samsung1.png", "assets/images/samsung1.png", "assets/images/samsung1.png", "assets/images/samsung1.png"];
+  products : any;
 
-  constructor() { }
+  constructor(private productService : ProductService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
 
+    this.productService.getProducts().subscribe(
+      response => {
+        this.products = (response as Array<any>).slice(0, 4);
+      },
+      error => {
+        console.log(error);
+      }
+    );    
   }
-
 }
