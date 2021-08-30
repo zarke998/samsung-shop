@@ -1,7 +1,8 @@
 [
     {
         "name": "Galaxy S21 Ultra",
-        "image": "assets/images/phones/galaxy-s21-ultra.png"
+        "image": "assets/images/phones/galaxy-s21-ultra.png",
+        "description": "The Samsung Galaxy S21 Ultra is the headliner of the S21 series. It's the first S series phone to support Samsung's S Pen. Specifications are top-notch including Snapdragon 888 chipset, 5G capability, up to 16gigs of RAM, and 512GB of storage. A 5000mAh battery keeps the lights on for this powerhouse. In the camera department, a quad-camera setup is presented with two telephoto sensors. The Samsung Galaxy S21 Ultra starting price is $1200."
     },
     {
         "name": "Galaxy Z Fold3",
