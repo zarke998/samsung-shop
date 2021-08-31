@@ -21,3 +21,26 @@
     font-size: 20px !important;
     margin: 20px 0px;
 }
+
+ul{    
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+li:first-child{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+li{
+    display: inline-block;
+}
+
+.colorSquare{
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-right: 10px;
+}

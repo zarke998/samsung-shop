@@ -14,6 +14,7 @@ import { TeamListComponent } from './team-list/team-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PhoneListComponent } from './phone-list/phone-list.component';
+import { PhonesPageComponent } from './phones-page/phones-page.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { PhoneListComponent } from './phone-list/phone-list.component';
     BestPhoneComponent,
     TeamListComponent,
     FooterComponent,
-    PhoneListComponent
+    PhoneListComponent,
+    PhonesPageComponent
   ],
   imports: [
     BrowserModule,

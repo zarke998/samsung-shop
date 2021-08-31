@@ -8,6 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class PhoneListComponent implements OnInit {
 
   @Input() products : any;
+  @Input() flexAlignement : string = "space-around";
+  @Input() displayColors : boolean = false;
 
   constructor() { }
 
