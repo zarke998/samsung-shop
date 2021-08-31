@@ -12,7 +12,7 @@ import { ProductService } from '../services/product-service/product.service';
 })
 export class TopProductsComponent implements OnInit {
 
-  products : any;
+  topProducts : any;
 
   constructor(private productService : ProductService) { }
 
@@ -20,7 +20,7 @@ export class TopProductsComponent implements OnInit {
 
     this.productService.getProducts().subscribe(
       response => {
-        this.products = (response as Array<any>).slice(0, 4);
+        this.topProducts = (response as Array<any>).slice(0, 4);
       },
       error => {
         console.log(error);

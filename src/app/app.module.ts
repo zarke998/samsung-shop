@@ -13,6 +13,7 @@ import { BestPhoneComponent } from './best-phone/best-phone.component';
 import { TeamListComponent } from './team-list/team-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PhoneListComponent } from './phone-list/phone-list.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     TopProductsComponent,
     BestPhoneComponent,
     TeamListComponent,
-    FooterComponent
+    FooterComponent,
+    PhoneListComponent
   ],
   imports: [
     BrowserModule,
