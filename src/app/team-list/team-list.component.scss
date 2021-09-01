@@ -188,3 +188,9 @@ p.m_5{
 	color:#222;
 	font-size:0.85em;
 }
+
+@media screen and(max-width: 440px) {
+    h3.m_3{
+        font-size: 2.5rem;
+    }
+}
