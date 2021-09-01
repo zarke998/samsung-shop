@@ -10,6 +10,7 @@ export class PhoneListComponent implements OnInit {
   @Input() products : any;
   @Input() flexAlignement : string = "space-around";
   @Input() displayColors : boolean = false;
+  @Input() topSpacing : string = "50px";
 
   constructor() { }
 

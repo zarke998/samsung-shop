@@ -24,14 +24,72 @@
     },
     {
         "name": "Galaxy Z Fold3",
-        "image": "assets/images/phones/z-fold3.png"
+        "image": "assets/images/phones/z-fold3.png",
+        "colors" : [
+            {
+                "name": "green",
+                "value": "#45BF55"
+            },
+            {
+                "name": "blue",
+                "value": "#0AA5E2"
+            },
+            {
+                "name": "red",
+                "value": "#FF0000"
+            },
+            {
+                "name": "pink",
+                "value": "#EE82EE"
+            }
+        ]
     },
     {
         "name": "Galaxy Z Flip3",
-        "image": "assets/images/phones/z-flip3.png"
+        "image": "assets/images/phones/z-flip3.png",
+        "colors" : [
+            {
+                "name": "green",
+                "value": "#45BF55"
+            },
+            {
+                "name": "blue",
+                "value": "#0AA5E2"
+            },
+            {
+                "name": "red",
+                "value": "#FF0000"
+            },
+            {
+                "name": "pink",
+                "value": "#EE82EE"
+            }
+        ]
     },
     {
         "name": "Galaxy Note 20 Ultra",
-        "image": "assets/images/phones/note-20-ultra.png"
+        "image": "assets/images/phones/note-20-ultra.png",
+        "colors" : [
+            {
+                "name": "green",
+                "value": "#45BF55"
+            },
+            {
+                "name": "blue",
+                "value": "#0AA5E2"
+            },
+            {
+                "name": "red",
+                "value": "#FF0000"
+            },
+            {
+                "name": "pink",
+                "value": "#EE82EE"
+            },
+            {
+                "name": "black",
+                "value": "#020202"
+            }
+        ]
     }
 ]
