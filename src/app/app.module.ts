@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PhoneListComponent } from './phone-list/phone-list.component';
 import { PhonesPageComponent } from './phones-page/phones-page.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { PhonesPageComponent } from './phones-page/phones-page.component';
     TeamListComponent,
     FooterComponent,
     PhoneListComponent,
-    PhonesPageComponent
+    PhonesPageComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,
