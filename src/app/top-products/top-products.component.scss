@@ -25,3 +25,9 @@
 	text-align:center;
 	margin:2% 0 0 0;
 }
+
+@media screen and (max-width: 400px) {
+	.content-top h2{
+		font-size: 2.5rem;
+	}
+}
