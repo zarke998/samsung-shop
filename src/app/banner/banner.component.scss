@@ -11,3 +11,12 @@ h1{
     top: 75%;
     left: 7%;
 }
+
+@media screen and (max-width: 400px) {
+    .banner{
+        height: 500px;
+    }
+    h1{
+        font-size: 42px;
+    }
+}
