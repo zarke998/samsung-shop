@@ -24,14 +24,15 @@ ul.team_list li {
 	list-style-image: url('/assets/images/marker.png');
 	margin: 0 0px 20px 15px;
 }
-ul.team_list li a {
+ul.team_list li span {
 	font-size: 0.85em;
 	color: #222;
 	text-transform: uppercase;
 	text-decoration:none;
 }
-ul.team_list li a:hover {
+ul.team_list li span:hover {
 	color:#444;
+    user-select: none;
 }
 ul.team_list li p{
 	color:#888;

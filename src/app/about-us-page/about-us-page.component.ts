@@ -1,6 +1,7 @@
 import { animate, animateChild, group, query, stagger, state, style, transition, trigger, useAnimation } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { fadeInAnimation } from '../animations';
+import { disableEmptyLinks} from '../global';
 
 @Component({
   selector: 'app-about-us-page',
@@ -32,9 +33,11 @@ import { fadeInAnimation } from '../animations';
 })
 export class AboutUsPageComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    disableEmptyLinks();
+   }
 
   ngOnInit(): void {
-  }
 
+  }
 }

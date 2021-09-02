@@ -23,4 +23,8 @@ export class TeamListComponent implements OnInit {
       }
     )
   }
+
+  disableSelf(event : any){
+    event.preventDefault();
+  }
 }
