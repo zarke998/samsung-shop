@@ -16,6 +16,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PhoneListComponent } from './phone-list/phone-list.component';
 import { PhonesPageComponent } from './phones-page/phones-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
+import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
     FooterComponent,
     PhoneListComponent,
     PhonesPageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    AboutUsPageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { TeamService } from '../services/team-list-service/team.service';
 
 @Component({
@@ -9,6 +9,7 @@ import { TeamService } from '../services/team-list-service/team.service';
 export class TeamListComponent implements OnInit {
 
   teamMembers : any;
+  @Input() spacingTop : string = "8%";
 
   constructor(private teamService : TeamService) { }
 
