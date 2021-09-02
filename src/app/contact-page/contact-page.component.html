@@ -22,14 +22,30 @@
             </div>
             <div class="row">
                 <div class="col-md-12 contact">
-                  <form method="post" action="contact-post.html">
+                  <form [formGroup]="contactForm" (ngSubmit)="contactSubmit()">
                     <div class="to">
-                         <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-                         <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-                         <input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+                         <input formControlName="name"
+                              type="text" class="text" placeholder="Name">
+                          <span class="error" *ngIf="!contactForm.get('name')?.valid && contactForm.get('name')?.touched">Name is required.</span>
+
+                         <input formControlName="email"
+                              type="text" class="text" placeholder="Email">
+                          <div *ngIf="!email?.valid && (email?.touched || email?.dirty)">
+                            <span class="error" *ngIf="email?.errors!['email']">Email is not in a good format.</span>
+                            <span class="error" *ngIf="email?.errors!['required']">Email is required.</span>
+                          </div>
+                          
+                         <input formControlName="subject"
+                              type="text" class="text" placeholder="Subject">
+                          <div class="error" *ngIf="!subject?.valid && (subject?.touched || subject?.dirty)">Subject is required.</div>
                     </div>
                     <div class="text">
-                       <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
+                       <textarea formControlName="message" placeholder="Message">Message:</textarea>
+                       <div class="error" *ngIf="!message?.valid && (message?.touched || message?.dirty)">
+                        <span class="error" *ngIf="message?.errors!['required']">Message is required.</span>
+                        <span class="error" *ngIf="message?.errors!['messageTooLong']">Message needs to be 100 characters or less.</span>
+                       </div>
+
                        <div class="form-submit">
                        <input name="submit" type="submit" id="submit" value="Submit"><br>
                        </div>
