@@ -16,8 +16,13 @@ export let fadeSlideOutAnimation = animation([
 
 export let fadeInAnimation = animation([
     style({opacity: 0}),
-    animate(1500)
-])
+    animate("1500ms {{ delay }}")
+],
+{
+    params : {
+        delay: "0s"
+    }
+});
 
 export let fadeSlide = trigger('fadeSlide', [
     transition("void => *",[
