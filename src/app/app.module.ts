@@ -17,6 +17,7 @@ import { PhoneListComponent } from './phone-list/phone-list.component';
 import { PhonesPageComponent } from './phones-page/phones-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
+import { PhoneComponent } from './phone/phone.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
     PhoneListComponent,
     PhonesPageComponent,
     ContactPageComponent,
-    AboutUsPageComponent
+    AboutUsPageComponent,
+    PhoneComponent
   ],
   imports: [
     BrowserModule,
