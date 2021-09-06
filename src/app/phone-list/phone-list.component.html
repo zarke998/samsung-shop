@@ -8,6 +8,6 @@
             <li>Colors</li>
             <li *ngFor="let color of product.colors"><span class="colorSquare" [ngStyle]="{'background-color' : color.value}"></span></li>
         </ul>
-        <a class="main-btn" href="">View info</a>
+        <a class="main-btn" [routerLink]="['/phones', product.id]" href="">View info</a>
     </div>
 </div>

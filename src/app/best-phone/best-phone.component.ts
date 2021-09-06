@@ -11,6 +11,7 @@ export class BestPhoneComponent implements OnInit {
   @Input() image : string = "";
   name : string = "Phone name";
   description : string = "Phone description";
+  id : number = 0;
 
   constructor(private productService : ProductService) {     
   }
@@ -22,6 +23,7 @@ export class BestPhoneComponent implements OnInit {
         
         this.name = topProduct.name;
         this.description = topProduct.description;
+        this.id = topProduct.id;
       }
     )
   }

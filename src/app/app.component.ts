@@ -7,5 +7,5 @@ import { MenuItem } from './menu-item/menu-item';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  logo : string = "assets/images/logo.png";
+  logo : string = "assets/images/logo.png";  
 }
