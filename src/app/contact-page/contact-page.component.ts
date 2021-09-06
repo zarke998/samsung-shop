@@ -48,6 +48,7 @@ export class ContactPageComponent implements OnInit {
   contactSubmit(){
     if(this.contactForm.valid){
       alert("Thank you for contacting us! We'll reach out to you as soon as possible");
+      this.contactForm.reset();
     }
     else{
       alert("Please fill in all fields.");
