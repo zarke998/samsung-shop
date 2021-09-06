@@ -12,4 +12,12 @@ export class ProductService {
   {
       return this.httpClient.get("http://localhost:4200/assets/data/products.json");
   }
+
+  async getProduct(id : number){
+    let products = await this.httpClient.get("http://localhost:4200/assets/data/products.json").toPromise() as Array<any>;
+    let product = products.find(p => p.id == id);
+
+    console.log(product);
+    return product;
+  }
 }
