@@ -143,7 +143,7 @@ ul.product-colors{
 .product-colors li {
 	display: inline-block;
 }
-.product-colors li a span {
+.product-colors li span {
 	width: 32px;
 	height: 32px;
 	display: inline-block;
@@ -278,13 +278,14 @@ ul.options li {
 	margin: 0 1% 0 0;
 	display: inline-block;
 }
-ul.options li a {
+ul.options li span {
 	color: #000;
 	font-size: 0.8125em;
 	padding: 5px 10px;
 	border: 1px solid #DFDDDD;
 	text-decoration:none;
 }
-ul.options li a:hover {
+ul.options li span:hover {
 	border: 1px solid #FFAF02;
+	user-select: none;
 }

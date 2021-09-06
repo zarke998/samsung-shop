@@ -13,12 +13,12 @@
                               <p class="m_10">{{ description }}</p>
                               <ul class="options">
                                   <h4 class="m_12">Specifications</h4>
-                                  <li style="margin-bottom: 10px" *ngFor="let spec of specifications"><a href="#">{{ spec }}</a></li>
+                                  <li style="margin-bottom: 10px" *ngFor="let spec of specifications"><span href="#">{{ spec }}</span></li>
                               </ul>
                               <ul class="product-colors">
                                   <h3>available Colors</h3>
                                   <li *ngFor="let color of colors" style="margin-right: 5px;">
-                                    <a href="#"><span [ngStyle]="{'background-color' : color.value }"></span></a>
+                                    <span [ngStyle]="{'background-color' : color.value }"></span>
                                   </li>
                                   <div class="clear"> </div>
                               </ul>
