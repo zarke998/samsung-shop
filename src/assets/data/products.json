@@ -15,35 +15,29 @@
                 "value": "#0AA5E2"
             },
             {
-                "name": "red",
-                "value": "#FF0000"
-            },
-            {
                 "name": "pink",
                 "value": "#EE82EE"
+            },
+            {
+                "name": "gray",
+                "value": "#6b6b6b"
+            },
+            {
+                "name": "dark blue",
+                "value": "#007194"
             }
         ]
     },
     {
+        "id" : 2,
         "name": "Galaxy Z Fold3",
         "image": "assets/images/phones/z-fold3.png",
         "description" : "The Samsung Galaxy Z Fold 3 is the company's most ambitious, productivity-centric smartphone yet. This phone is a little bit slimmer than its predecessor when unfolded and the overall weight is a bit lower at 271g (vs 282g), but it's still just as chunky in its folded state. The outer display or ‘cover screen' on the Samsung Galaxy Z Fold 3 is more or less the same as it was on the Galaxy Z Fold 2, except that it now supports an adaptive 120Hz refresh rate. The main attraction is of course the folding 7.6-inch AMOLED display which has a higher resolution of 2,208x1,768, along with HDR10 playback and a 120Hz refresh rate",
+        "specifications" : ["7.60-inch", "2208x1768", "octa-core", "10MP + 4MP Front camera", "12GB RAM", "256GB Storage", "4400mAh"],
         "colors" : [
-            {
-                "name": "green",
-                "value": "#45BF55"
-            },
             {
                 "name": "blue",
                 "value": "#0AA5E2"
-            },
-            {
-                "name": "red",
-                "value": "#FF0000"
-            },
-            {
-                "name": "pink",
-                "value": "#EE82EE"
             },
             {
                 "name": "black",
@@ -52,21 +46,36 @@
         ]
     },
     {
+        "id" : 3,
         "name": "Galaxy Z Flip3",
         "image": "assets/images/phones/z-flip3.png",
         "description" : "Samsung Galaxy Z Flip 3 mobile was launched on 11th August 2021. The phone comes with a 6.70-inch touchscreen primary display with a resolution of 1080x2640 pixels at a pixel density of 425 pixels per inch (ppi). It also features a 1.90-inch touchscreen as its second display, with a resolution of 260x512 pixels. Samsung Galaxy Z Flip 3 is powered by an octa-core processor. It comes with 8GB of RAM. The Samsung Galaxy Z Flip 3 runs Android 11 and is powered by a 3300mAh battery. The Samsung Galaxy Z Flip 3 supports wireless charging.",
+        "specifications" : ["6.70-inch", "1080x2640", "octa-core", "10MP Front camera", "8GB RAM", "256GB Storage", "3300mAh"],
         "colors" : [
+            {
+                "name": "red",
+                "value": "#c41818"
+            },
+            {
+                "name": "black",
+                "value": "#020202"
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "name": "Galaxy Note 20 Ultra",
+        "image": "assets/images/phones/note-20-ultra.png",
+        "description" : "The new Samsung Galaxy Note 20 Ultra is supposed to be the best of the best that Samsung has to offer in a smartphone – minus a bendable screen. It's the most expensive conventional phone in Samsung's lineup, and includes the top-of-the-line 108-megapixel camera of the Galaxy S20 Ultra from earlier this year as well as the S-Pen stylus and all its associated functionality. Of course, being a Note series device, it also has to have an enormous screen plus all the latest hardware. This is a luxury phone for those who want the absolute best, but the Note series' usual focus on productivity also hasn't been forgotten.",
+        "specifications" : ["6.90-inch", "1440x3200", "Samsung Exynos 990", "10MP Front camera", "12GB RAM", "128GB Storage", "4500mAh"],
+        "colors" : [
+            {
+                "name": "red",
+                "value": "#c41818"
+            },
             {
                 "name": "green",
                 "value": "#45BF55"
-            },
-            {
-                "name": "blue",
-                "value": "#0AA5E2"
-            },
-            {
-                "name": "red",
-                "value": "#FF0000"
             },
             {
                 "name": "pink",
@@ -75,28 +84,112 @@
         ]
     },
     {
-        "name": "Galaxy Note 20 Ultra",
-        "image": "assets/images/phones/note-20-ultra.png",
+        "id" : 5,
+        "name": "Galaxy A52",
+        "image": "assets/images/phones/a52.png",
+        "description" : "Samsung Galaxy Z Flip 3 mobile was launched on 11th August 2021. The phone comes with a 6.70-inch touchscreen primary display with a resolution of 1080x2640 pixels at a pixel density of 425 pixels per inch (ppi). It also features a 1.90-inch touchscreen as its second display, with a resolution of 260x512 pixels. Samsung Galaxy Z Flip 3 is powered by an octa-core processor. It comes with 8GB of RAM. The Samsung Galaxy Z Flip 3 runs Android 11 and is powered by a 3300mAh battery. The Samsung Galaxy Z Flip 3 supports wireless charging.",
+        "specifications" : ["6.70-inch", "1080x2640", "octa-core", "10MP Front camera", "8GB RAM", "256GB Storage", "3300mAh"],
+        "colors" : [
+            {
+                "name": "dark blue",
+                "value": "#007194"
+            },
+            {
+                "name": "black",
+                "value": "#020202"
+            }
+        ]
+    },
+    {
+        "id" : 6,
+        "name": "Galaxy A42",
+        "image": "assets/images/phones/a42.png",
+        "description" : "Samsung Galaxy A42 5G mobile was launched on 2nd September 2020. The phone comes with a 6.60-inch touchscreen display. Samsung Galaxy A42 5G is powered by a 1.7GHz octa-core processor that features 2 cores clocked at 2.2GHz and 6 cores clocked at 1.8GHz. It comes with 4GB of RAM. The Samsung Galaxy A42 5G runs Android 10 and is powered by a 5000mAh battery. The Samsung Galaxy A42 5G supports proprietary fast charging.",
+        "specifications" : ["6.60-inch", "1080x2640", "1.7GHz octa-core", "20MP Front camera", "4GB RAM", "128GB Storage", "5000mAh"],
+        "colors" : [
+            {
+                "name": "red",
+                "value": "#c41818"
+            },
+            {
+                "name": "black",
+                "value": "#020202"
+            },
+            {
+                "name": "purple",
+                "value": "#4900b0"
+            },
+            {
+                "name": "gray",
+                "value": "#6b6b6b"
+            }
+        ]
+    },
+    {
+        "id" : 7,
+        "name": "Galaxy S20",
+        "image": "assets/images/phones/s20.png",
+        "description" : "Samsung Galaxy S20 FE 5G mobile was launched on 31st March 2021. The phone comes with a 6.50-inch touchscreen display with a resolution of 1080x2400 pixels and an aspect ratio of 20:9. Samsung Galaxy S20 FE 5G is powered by an octa-core Qualcomm Snapdragon 865 processor. It comes with 8GB of RAM. The Samsung Galaxy S20 FE 5G runs Android 10 and is powered by a 4500mAh battery. The Samsung Galaxy S20 FE 5G supports proprietary fast charging.",
+        "specifications" : ["6.50-inch", "1080x2400", "Qualcomm Snapdragon 865", "32MP Front camera", "8GB RAM", "128GB Storage", "4500mAh"],
+        "colors" : [
+            {
+                "name": "red",
+                "value": "#c41818"
+            },
+            {
+                "name": "blue",
+                "value": "#0AA5E2"
+            }
+        ]
+    },
+    {
+        "id" : 8,
+        "name": "Galaxy Note 9",
+        "image": "assets/images/phones/note9.png",
+        "description" : "The new Galaxy Note 9 has much the same hardware and cameras as the Galaxy S9 Plus. The main thing that sets the Galaxy Note 9 apart is its S Pen, which now has added Bluetooth connectivity and can be used as a single-button Bluetooth remote control. Samsung's Experience UI is highly customised but feels smooth and natural to use, with several thoughtful ways to use the S Pen. This phone is a bit too large and heavy, but it has a huge 6.4-inch screen with curved edges and a 4000mAh battery that could last you up to two days. The cameras are great, and Samsung's app gives you a lot to play with. If you want to spend this much money and can live with the bulk, the Galaxy Note 9 delivers a top-class experience.",
+        "specifications" : ["6.40-inch", "1440x2960", "Samsung Exynos 9810", "8MP Front camera", "6GB RAM", "128GB Storage", "4000mAh"],
         "colors" : [
             {
                 "name": "green",
                 "value": "#45BF55"
             },
             {
+                "name": "black",
+                "value": "#020202"
+            }
+        ]
+    },
+    {
+        "id" : 9,
+        "name": "Galaxy S10",
+        "image": "assets/images/phones/s10.png",
+        "description" : "The Samsung Galaxy S10 was launched alongside the Galaxy S10E and the Galaxy S10+. This smartphone sits right between the other two devices and has a 6.1-inch display. This display has QHD+ resolution but you can change the resolution of the display panel. It also has an ultrasonic in-display fingerprint scanner which is super quick to unlock the smartphone. The sixe of the device is perfect for single-hand use. It also has a hole-punch design at the front.",
+        "specifications" : ["6.10-inch", "1080x2640", "Samsung Exynos 9820", "10MP Front camera", "8GB RAM", "128GB Storage", "3400mAh"],
+        "colors" : [
+            {
+                "name": "pink",
+                "value": "#EE82EE"
+            }
+        ]
+    },
+    {
+        "id" : 10,
+        "name": "Galaxy S10 Lite",
+        "image": "assets/images/phones/s10-lite.png",
+        "description" : "The Samsung Galaxy S10 Lite features a 6.7-inch Super AMOLED+ panel, with a full-HD+ resolution and supoorts HDR10+ colour profile. Colours and punchy and brightness level is good. The back of the phone has a polycarbonate layer which resembles glass. Button placement feels ergonomic, and on the left, we have a hybrid dual-SIM tray that can either take two Nano-SIM cards or a single SIM and a microSD card.",
+        "specifications" : ["6.70-inch", "1080x2400", "Qualcomm Snapdragon 855", "32MP Front camera", "8GB RAM", "128GB Storage", "4500mAh"],
+        "colors" : [
+            {
                 "name": "blue",
                 "value": "#0AA5E2"
             },
             {
-                "name": "red",
-                "value": "#FF0000"
+                "name": "green",
+                "value": "#45BF55"
             },
             {
-                "name": "pink",
-                "value": "#EE82EE"
-            },
-            {
-                "name": "black",
-                "value": "#020202"
+                "name": "gray",
+                "value": "#6b6b6b"
             }
         ]
     }
