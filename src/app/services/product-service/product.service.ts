@@ -10,11 +10,11 @@ export class ProductService {
 
   getProducts()
   {
-      return this.httpClient.get("http://localhost:4200/assets/data/products.json");
+      return this.httpClient.get(`${window.location.origin}/assets/data/products.json`);
   }
 
   async getProduct(id : number){
-    let products = await this.httpClient.get("http://localhost:4200/assets/data/products.json").toPromise() as Array<any>;
+    let products = await this.httpClient.get(`${window.location.origin}/assets/data/products.json`).toPromise() as Array<any>;
     let product = products.find(p => p.id == id);
 
     console.log(product);

@@ -9,6 +9,6 @@ export class MenuService {
   constructor(private httpClient : HttpClient) { }
 
   getMenu(){
-    return this.httpClient.get("http://localhost:4200/assets/data/menu.json");
+    return this.httpClient.get(`${window.location.origin}/assets/data/menu.json`);
   }
 }

@@ -10,6 +10,6 @@ export class TeamService {
 
   getTeam()
   {
-    return this.httpClient.get("http://localhost:4200/assets/data/team.json");
+    return this.httpClient.get(`${window.location.origin}/assets/data/team.json`);
   }
 }
